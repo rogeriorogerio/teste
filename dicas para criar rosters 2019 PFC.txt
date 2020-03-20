@@ -1,0 +1,20 @@
+Making a roster file:
+Here you can see an example of a roster file: http://www.coachapps.io/rosters/Rsafford_NFL_Roster.txt
+
+To make a roster file, open a plain text editor like Notepad++ or Sublime Text. Then start making the roster for each team. The general format for each team will be:
+
+Team Name, Team Abbr (Ex: DEN Stallions, DEN)
+
+Many lines of players
+
+END_PLAYERS tag to mark the end of a team
+
+When making a roster file, you also must put the teams in order of division: AMNOR, AMEAS, AMSOU, AMWES, NANOR, NAEAS, NASOU, NAWES. But for each team, you can specify the name and abbreviation to whatever you please, as long as it doesn't have invalid characters (% > , \).
+
+And obviously, you can specify the entire roster of each team. Each line in the file corresponds to a player in this format:
+
+Position, Name, Age, Rookie Year, Pot, FIQ, Dur, Attr1, Attr2, Attr3, Contract Money, Contract Years
+
+Where Attr1-3 are the positional attributes. So for a QB they would be Pass Strength, Accuracy, and Evasion respectively. If there aren't enough players in a position then UDFAs are signed to fill the roster.
+
+You can also include comments in the file for easier readability by putting a # at the beginning of the line.
