@@ -4,12 +4,11 @@
 
         {
             "Id": "Seth",
-            "Name": "Smith"
-            "Age": "17"
+            "Name": "Smith" 
         },
         {
             "Id": "Muncie",
-            "Name": "Muncy"
+            "Name": "Muncy",
             "Age": "17"
         },
         {
